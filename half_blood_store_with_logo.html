@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Half Blood Store - Clothing for Demigods">
+    <title>Half Blood Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e8f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffccf9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ff99c8;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #a3a3ff;
+        }
+
+        nav {
+            background-color: #c6e2ff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ff99c8;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #ff99c8;
+            border-bottom: 2px solid #ff99c8;
+            padding-bottom: 10px;
+        }
+
+        .clothing-options img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .testimonial {
+            background-color: #ffe5f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #c6e2ff;
+            padding: 20px;
+            text-align: center;
+            color: #ff99c8;
+        }
+
+        .contact-form {
+            background-color: #e0ffff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ffccf9;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #ffccf9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            color: #ff99c8;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Half Blood Store Logo" style="width:150px;height:auto;">
+        <h1>Half Blood Store</h1>
+        <p>Welcome Demi Gods</p>
+    </header>
+
+    <nav>
+        <a href="#clothing">Clothing Options</a>
+        <a href="#bio">About Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section id="clothing">
+            <h2>Clothing Options</h2>
+            <div class="clothing-options">
+                <h3>Option 1: Pastel Summer Dress</h3>
+                <img src="https://via.placeholder.com/300x400" alt="Pastel Summer Dress">
+                <p>Price: $45</p>
+                
+                <h3>Option 2: Cozy Pastel Sweater</h3>
+                <img src="https://via.placeholder.com/300x400" alt="Cozy Pastel Sweater">
+                <p>Price: $55</p>
+
+                <h3>Option 3: Pastel Skirt</h3>
+                <img src="https://via.placeholder.com/300x400" alt="Pastel Skirt">
+                <p>Price: $35</p>
+            </div>
+        </section>
+
+        <section id="bio">
+            <h2>About Us</h2>
+            <p>Welcome to Half Blood Store, your go-to shop for clothing designed with demigods in mind. Our collection 
+            blends modern trends with a mythical twist, providing you with outfits that make you feel confident and unique.
+            Inspired by the stories of ancient heroes, each piece in our collection is crafted to help you unleash your inner hero!</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"I absolutely love the pastel summer dress! It's so comfortable and perfect for warm weather." - Emma L.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The pastel sweater is my new favorite piece. It’s so cozy and stylish!" - Sarah P.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The skirt I ordered fits perfectly and looks exactly like the picture. Highly recommend!" - Mia K.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form action="https://example.com/contact" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Half Blood Store</p>
+    </footer>
+</body>
+</html>
